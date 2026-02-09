@@ -1,0 +1,192 @@
+/* Container */
+
+.main-box {
+  padding: 0.75rem;
+  height: 100dvh;
+  display: flex;
+}
+
+.main-background {
+  background:
+    linear-gradient(
+      -180deg,
+      rgba(0, 0, 0, 0) 30%,
+      rgba(0, 0, 0, 0.8) 80%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("../../img/reader.png") no-repeat center left;
+  background-size: cover;
+  border-radius: 1.5rem;
+  padding: 1.25rem;
+  flex: 1;
+}
+
+.main-content {
+  display: flex;
+  gap: 1.875rem;
+  align-items: end;
+  height: 100%;
+}
+
+/* Login */
+
+.main-login {
+  background: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 244, 235, 1) 100%
+  );
+  padding: 5.5rem 2rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: inset 0 0 0 2px #b8916e;
+  border: 1px solid #fff;
+  flex: 1 1 420px;
+  min-width: 26.25rem;
+  max-width: 32.5rem;
+  align-self: stretch;
+}
+
+.main-login_intro {
+  text-align: center;
+  margin-bottom: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-login_intro img {
+  margin: 0 auto 0.75rem auto;
+}
+
+.main-login_intro p {
+  max-width: 40ch;
+}
+
+.main-login .button {
+  width: 100%;
+}
+
+.main-login header {
+  margin-bottom: 2.25rem;
+}
+
+.divider {
+  margin-bottom: 2.25rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  gap: 1rem;
+  white-space: nowrap;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  display: block;
+  background-color: var(--support-color-100);
+  height: 1px;
+  flex: 1;
+}
+
+/* Login form */
+.form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: var(--support-color-200);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.form input {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font:
+    400 1rem/1.2 "Montserrat",
+    sans-serif;
+  width: 100%;
+  display: block;
+  background: #fffef9;
+  border-radius: 4px;
+  border: 1px solid rgba(143, 134, 131, 0.5);
+}
+
+.form input:hover {
+  border: 1px solid var(--primary-color-100);
+}
+
+.form input:focus {
+  border: 1px solid var(--primary-color-100);
+  box-shadow: inset 0 0 0 1px var(--primary-color);
+  outline: none;
+}
+
+.form input[type="password"] {
+  margin-bottom: 2rem;
+}
+
+.form button {
+  margin-bottom: 1.25rem;
+}
+
+.form p {
+  text-align: center;
+}
+
+.form p + p {
+  margin-top: 2.25rem;
+}
+
+/* Features list */
+
+.main-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2.25rem;
+  color: #fff;
+}
+
+.main-features li {
+  flex: 2;
+}
+
+.main-features li img {
+  margin-bottom: 1rem;
+}
+
+.main-features li h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-features li p {
+  max-width: 34ch;
+}
+
+/* List of readers */
+
+.join-readers {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+
+.join-readers_photos {
+  display: flex;
+}
+
+.join-readers_photos li img {
+  border-radius: 50%;
+  border: 2px solid var(--support-color-0);
+}
+
+.join-readers_photos li {
+  margin-left: -12px;
+}

@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #ff6747;
+  --primary-color-100: #ff8166;
+  --primary-color-200: #523838;
+  --support-color-0: #fff;
+  --support-color-100: #8f8683; 
+  --support-color-200: #191514;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.primary-color-100 {
+  color: var(--primary-color-100);
+}
+
+.primary-color-200 {
+  color: var(--primary-color-200);
+}
+
+.support-color-0 {
+  color: var(--support-color-0);
+}
+
+.support-color-100 {
+  color: var(--support-color-100);
+}
+
+.support-color-200 {
+  color: var(--support-color-200);
+}

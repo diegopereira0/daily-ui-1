@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+*,
+body,
+div,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+
+a:hover {
+  color: var(--primary-color);
+}
+
+::selection {
+  background: var(--primary-color);
+  color: var(--support-color-0);
+}

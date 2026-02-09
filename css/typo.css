@@ -1,0 +1,35 @@
+.font-1-m {
+  font:
+    400 1rem/1.2 "Zilla Slab",
+    sans-serif;
+}
+
+.font-1-m-b {
+  font:
+    600 1.125rem/1.2 "Zilla Slab",
+    sans-serif;
+}
+
+.font-2-m {
+  font:
+    400 1rem/1.4 "Montserrat",
+    sans-serif;
+}
+
+.font-2-m-b {
+  font:
+    600 1rem/1.2 "Montserrat",
+    sans-serif;
+}
+
+.font-2-s {
+  font:
+    400 0.875rem/1.2 "Montserrat",
+    sans-serif;
+}
+
+.font-2-xs {
+  font:
+    400 0.75rem/1.2 "Montserrat",
+    sans-serif;
+}
