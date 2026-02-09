@@ -190,3 +190,94 @@
 .join-readers_photos li {
   margin-left: -12px;
 }
+
+@media (max-width: 1116px) {
+  .main-content {
+    gap: 0;
+  }
+
+  .main-login {
+    min-width: 320px;
+    padding: 2rem 1.25rem 1.25rem;
+  }
+
+  .main-features {
+    gap: 1.5rem;
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-background {
+    background:
+      linear-gradient(
+        -180deg,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 0.9) 50%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("../../img/reader.png") no-repeat center top,
+      black;
+    
+  }
+
+  .main-features {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .main-features li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    align-content: start;
+  }
+
+  .main-features li img {
+    grid-column: 1;
+    margin-bottom: 0;
+  }
+
+  .main-features li h3 {
+    align-self: center;
+    grid-column: 2;
+    margin-bottom: 0;
+  }
+
+  .main-features li p {
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-box {
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .main-background {
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .main-content {
+    justify-content: center;
+  }
+
+  .main-login {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .main-features {
+    display: none;
+  }
+
+  .join-readers {
+    display: none;
+  }
+}
